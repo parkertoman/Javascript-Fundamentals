@@ -15,6 +15,8 @@ console.log(amount);
 const FULL_NAME = "John Doe";
 const AMOUNT = 1000;
 
-console.log('Hello world!')
+console.log('Hello world!');
 
-console.log('Hi there!')
+console.log('Hi there!');
+
+console.log("Hi from Github!")

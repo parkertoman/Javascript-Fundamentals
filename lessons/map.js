@@ -45,6 +45,27 @@ const programmingLanguages = new Map([
 //     console.log(`The key is ${key}. The value is ${value}.`);
 // })
 
-programmingLanguages.forEach(function processData(value, key) {
-    console.log(`The key is ${key}. The value is ${value}.`);
-})
+// programmingLanguages.forEach(function processData(value, key) {
+//     console.log(`The key is ${key}. The value is ${value}.`);
+// })
+
+// Create a set
+// const letters = new Set();
+
+// Add values to a Set
+// letters.add("a");
+// letters.add("b");
+// letters.add("c");
+
+// Duplicate example
+const letters = new Set();
+
+letters.add("a");
+letters.add("b");
+letters.add("c");
+letters.add("c");
+letters.add("c");
+letters.add("c");
+
+console.log(letters);
+// Output: Set(3) { 'a', 'b', 'c' }
